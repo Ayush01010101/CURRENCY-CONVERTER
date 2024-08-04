@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Ayush01010101.github.io/Currency-converter-react",
+  "homepage": "https://Ayush01010101.github.io/CURRENCY-CONVERTER",
   "name": "currency-converter",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
