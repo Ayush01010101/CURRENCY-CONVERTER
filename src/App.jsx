@@ -3,7 +3,7 @@ import React from 'react'
 import InputBox from './componets/Input box.jsx'
 import UsecurrencyInfo from './hooks/usecurrency.js';
 import { CiBadgeDollar } from "react-icons/ci";
-
+import { MdOutlineSwapVert } from "react-icons/md";
 
 
 function App() {
@@ -84,7 +84,8 @@ function App() {
                             onClick={swap}
                             
                         >
-                            swap
+                           <MdOutlineSwapVert size={24} />
+                            
                         </button>
                     </div>
                     <div className="w-full mt-1 mb-4">
